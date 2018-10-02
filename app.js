@@ -39,6 +39,13 @@ if (constants.enableFileLogging === true) {
 if (constants.enableBasicAuth === true) {
     app.use(basicAuth({ users: constants.users }))
 }
+
+app.get('/favicon.ico',function(req,res){
+    var img = fs.readFileSync('./favicon.ico');
+    res.writeHead(200, {'Content-Type': 'image/ico' });
+    res.end(img, 'binary');
+});
+
 //specific handler
 app.get('/:Table', function (req, res) {
     var retData;
