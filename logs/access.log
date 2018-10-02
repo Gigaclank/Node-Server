@@ -1,0 +1,2 @@
+::1 - - [02/Oct/2018:14:05:02 +0000] "GET / HTTP/1.1" 200 131 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36"
+::1 - - [02/Oct/2018:14:05:02 +0000] "GET /robots.txt HTTP/1.1" 200 23 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36"
