@@ -1,3 +1,4 @@
+
 # README #
 
 This README describes how to install and customise this for individual use.
@@ -22,4 +23,7 @@ app.js is used to handle any incomming requests via https and can be configured 
 
 ## TODO ##
 * Complete basic auth information from server for multiple users
-* 
+
+<p align="center" z-index = "-1">
+  <img src="https://avatars2.githubusercontent.com/u/12459794?s=200&v=4"/>
+</p>
