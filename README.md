@@ -13,6 +13,10 @@ The following should be installed locally or globally using node.js
 * npm install express-basic-auth
 * (npm install morgan express fs path mysql express-basic-auth) - this will install all at the same time
 
+* It may be neccisary to run the following command in mySQL for version 8.0 + 
+ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'password'
+
+
 Usinging OpenSSL generate two files follow this guide to generate files. 
  - https://rietta.com/blog/2012/01/27/openssl-generating-rsa-key-from-command/
 
