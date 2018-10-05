@@ -10,6 +10,8 @@ The following should be installed locally or globally using node.js
 * npm install fs
 * npm install path
 * npm install mysql
+* npm install express-basic-auth
+* (npm install morgan express fs path mysql express-basic-auth) - this will install all at the same time
 
 Usinging OpenSSL generate two files follow this guide to generate files. 
  - https://rietta.com/blog/2012/01/27/openssl-generating-rsa-key-from-command/
