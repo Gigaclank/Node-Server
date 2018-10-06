@@ -1,3 +1,8 @@
+[![GitHub issues](https://img.shields.io/github/issues/Gigaclank/Node-Server.svg?style=popout)](https://github.com/Gigaclank/Node-Server/issues)
+[![GitHub forks](https://img.shields.io/github/forks/Gigaclank/Node-Server.svg?style=popout)](https://github.com/Gigaclank/Node-Server/network)
+[![GitHub stars](https://img.shields.io/github/stars/Gigaclank/Node-Server.svg?style=popout)](https://github.com/Gigaclank/Node-Server/stargazers)
+[![GitHub license](https://img.shields.io/github/license/Gigaclank/Node-Server.svg?style=popout)](https://github.com/Gigaclank/Node-Server/blob/master/LICENSE.txt)
+[![Github all releases](https://img.shields.io/github/downloads/Gigaclank/Node-Server/total.svg)](https://github.com/Gigaclank/Node-Server)
 
 # README #
 
