@@ -26,10 +26,9 @@ ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'password
 Usinging OpenSSL generate two files follow this guide to generate files. 
  - https://www.openssl.org/docs/manmaster/man1/req.html
 
-
-version: OPENSSL V 1.1.1a 20 Nov 2018
-openssl genrsa -out privatekey.pem 2048
-opensll req -x509 -new -key privatekey.pem -out certificate.pem
+openssl commands:
+* openssl genrsa -out privatekey.pem 2048
+* opensll req -x509 -new -key privatekey.pem -out certificate.pem
 
 ## Basic Usage ##
 Any variables are stored in constants.js - to customise your application change this file to suit your needs.
