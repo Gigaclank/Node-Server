@@ -4,12 +4,12 @@ fs = require('fs');
 enableConsoleLog = true;
 enableServer = true;
 enableSecureServer = true;
-enableBasicAuth = false;
+enableBasicAuth = true;
 enableFileLogging = true;
 enableReducedHeaders = true;
 
-if(enableConsoleLog === false){
-    console.log = function() {};
+if (enableConsoleLog === false) {
+    console.log = function () { };
 }
 ServerPort = '80';
 SecureServerPort = '443';
@@ -66,4 +66,4 @@ exports.enableBasicAuth = enableBasicAuth;
 exports.enableFileLogging = enableFileLogging;
 exports.enableReducedHeaders = enableReducedHeaders;
 exports.LogFile = LogFile;
-exports.enableConsoleLog = enableConsoleLog ;
+exports.enableConsoleLog = enableConsoleLog;

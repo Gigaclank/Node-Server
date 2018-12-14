@@ -16,14 +16,20 @@ The following should be installed locally or globally using node.js
 * npm install path
 * npm install mysql
 * npm install express-basic-auth
-* (npm install morgan express fs path mysql express-basic-auth) - this will install all at the same time
+* npm install body-parser
+* (npm install morgan express fs path mysql express-basic-auth body-parser) - this will install all at the same time
 
 * It may be neccisary to run the following command in mySQL for version 8.0 + 
 ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'password'
 
 
 Usinging OpenSSL generate two files follow this guide to generate files. 
- - https://rietta.com/blog/2012/01/27/openssl-generating-rsa-key-from-command/
+ - https://www.openssl.org/docs/manmaster/man1/req.html
+
+
+version: OPENSSL V 1.1.1a 20 Nov 2018
+openssl genrsa -out privatekey.pem 2048
+opensll req -x509 -new -key privatekey.pem -out certificate.pem
 
 ## Basic Usage ##
 Any variables are stored in constants.js - to customise your application change this file to suit your needs.

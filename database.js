@@ -17,6 +17,32 @@ con.connect(function (err) {
 });
 
 module.exports = {
+
+    GetUsers: function GetUsers() {
+        return new Promise(function (resolve, reject) {
+            let sql = 'SELECT * FROM basicauth';
+            var rows
+            con.query(sql, function (err, result) {
+                if (result === undefined) {
+                    reject(Error('NoData'));
+                    return;
+                }
+                
+                rows = JSON.parse(JSON.stringify(result))
+
+                if (rows !== undefined) {
+                    //console.log(rows);
+                    var data = JSON.stringify(rows);
+                    resolve(rows);
+                } else {
+                    reject(Error('NoData'));
+                }
+            });
+        });
+    },
+
+
+
     GetAllData: function GetAllData(Table) {
         return new Promise(function (resolve, reject) {
             let sql = 'SELECT * FROM ' + Table;
